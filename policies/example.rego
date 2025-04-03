@@ -15,7 +15,7 @@ allow if {
 allow if {
     input.method == "GET"
     input.path = ["users"]
-    input.user.id  # Ensure user is authenticated (id exists)
+    input.user.id
 }
 
 allow if {
