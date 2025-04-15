@@ -1,4 +1,4 @@
-package fintlabs
+package core
 
 default allowed := false
 
